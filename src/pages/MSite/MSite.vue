@@ -23,8 +23,7 @@
           </div>
         </div>
         <ul v-else>
-          // 遍历生成3个背景图
-          <li v-for="i in 3">
+          <li v-for="i in 1">
             <img src="./images/nav/msite_back.svg" alt="back">
           </li>
         </ul>
