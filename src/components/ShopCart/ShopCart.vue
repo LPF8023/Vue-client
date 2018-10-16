@@ -18,6 +18,7 @@
           </div>
         </div>
       </div>
+
       <transition name="move">
         <div class="shopcart-list" v-show="listShow">
           <div class="list-header">

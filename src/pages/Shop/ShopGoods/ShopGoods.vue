@@ -42,7 +42,11 @@
           </li>
         </ul>
       </div>
-      <ShopCart/>
+
+      <keep-alive>
+        <ShopCart/>
+      </keep-alive>
+
     </div>
 
     <Food :food="food" ref="food"/>

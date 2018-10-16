@@ -6,7 +6,7 @@
         <i class="iconfont icon-sousuo"></i>
       </span>
       <span class="header_login" slot="right">
-        <span class="header_login_text">登录|注册</span>
+        <span class="header_login_text">{{user.name ? user.name : '登录|注册'}}</span>
       </span>
     </TopHeader>
     <!--首页导航-->
@@ -63,7 +63,7 @@
     },
 
     computed: {
-      ...mapState(['address', 'categorys']),
+      ...mapState(['address', 'categorys', 'user']),
 
     //  产生一个二维数组，小数组中元素个数为8
       categorysArr () {
